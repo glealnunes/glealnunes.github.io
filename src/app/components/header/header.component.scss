@@ -1,0 +1,26 @@
+$azul: #3DA5D9;
+$azulEscuro: #2364AA;
+$azulClaro: #A2D6F9;
+$branco: #F9F9F9;
+$laranja: #EA7317;
+
+*{
+  display: flex;
+  flex-direction: row;
+}
+.app-header {
+  margin-left: 20vh;
+}
+.header-title {
+  margin-top: 6.8vh;
+  font-size: 11vh;
+  font-weight: 600;
+  margin-right: 0;
+}
+.header-cabeçalo{
+  margin-top: 14vh;
+  font-family: 'Montserrat', Poppins;
+  font-weight: 600;
+  gap: 3.2vh;
+  justify-content: flex-end;
+}

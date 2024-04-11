@@ -1,32 +1,29 @@
 <body>
-  <header class="cabeçalho">
-    <strong>/Portfólio</strong>
-      <a>INÍCIO</a>
-      <a>INFORMAÇÕES</a>
-      <a>SERVIÇOS</a>
-      <a>TECNOLOGIAS</a>
-      <a>PROJETOS</a>
-      <a>CONTATO</a>
-  </header>
+  <app-header></app-header>
   <main>
-    <section>
-      <div class="inicio">
-        <aside>
-          <a>Frontend</a>
-          <a>Developer.</a>
-          <a>Gesser Leal</a>
-          <div>
-            <button>Download currículo</button>
-            <button>Linkedin</button>
-            <button>Github</button>
-            <button>Discord</button>
-          </div>
-        </aside>
-        <article>
-          <img id="foto-perfil" src="assets/fotoPerfil.png" alt="Foto de Perfil">
-        </article>
-      </div>
+    <section class="home">
+      <aside class="home-div">
+        <h1 class="home-titulo">Frontend</h1>
+        <h1 class="home-subtitulo">Develo<span class="negrito-laranja">per.</span></h1>
+        <h1 class="home-nome">Gesser Leal</h1>
+        <div class="lista-botao">
+          <button class="botao-curriculo">
+            Download currículo
+          </button>
+          <button class="botao-site">
+            <img class="imagem-site"src="assets/linkedin.png" alt="Logo linkedin">
+          </button>
+          <button class="botao-site">
+            <img class="imagem-site" src="assets/github.png" alt="Logo Github">
+          </button>
+          <button class="botao-site">
+            <img class="imagem-site" src="assets/discord.png" alt="Logo Discord">
+          </button>
+        </div>
+      </aside>
+      <article class="home-foto">
+        <img class="foto-perfil" src="assets/fotoPerfil.png" alt="Foto de Perfil">
+      </article>
     </section>
   </main>
 </body>
-

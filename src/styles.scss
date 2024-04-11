@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
+$branco: #F9F9F9;
+$azul: #3DA5D9;
+$azulEscuro: #2364AA;
+$azulClaro: #A2D6F9;
+$laranja: #EA7317;
+body {
+  //margin: 0 auto;
+  font-size: 100%;
+  color : $branco;
+  font-family:'Poppins', sans-serif;
+  background-color: $azulEscuro;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
