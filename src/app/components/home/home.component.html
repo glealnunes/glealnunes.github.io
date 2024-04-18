@@ -1,29 +1,47 @@
-<body>
-  <app-header></app-header>
-  <main>
-    <section class="home">
-      <aside class="home-div">
-        <h1 class="home-titulo">Frontend</h1>
-        <h1 class="home-subtitulo">Develo<span class="negrito-laranja">per.</span></h1>
-        <h1 class="home-nome">Gesser Leal</h1>
-        <div class="lista-botao">
-          <button class="botao-curriculo">
-            Download currículo
-          </button>
-          <button class="botao-site">
-            <img class="imagem-site"src="assets/linkedin.png" alt="Logo linkedin">
-          </button>
-          <button class="botao-site">
-            <img class="imagem-site" src="assets/github.png" alt="Logo Github">
-          </button>
-          <button class="botao-site">
-            <img class="imagem-site" src="assets/discord.png" alt="Logo Discord">
-          </button>
-        </div>
-      </aside>
-      <article class="home-foto">
-        <img class="foto-perfil" src="assets/fotoPerfil.png" alt="Foto de Perfil">
-      </article>
-    </section>
-  </main>
-</body>
+<app-header></app-header>
+    <main>
+      <section>
+        <aside class="home">
+
+            <h3>Frontend</h3>
+            <h1>Develo<span>per.</span></h1>
+            <h2 >Gesser Leal</h2>
+
+          <div class="lista-botoes">
+            <button class="botao-curriculo">
+              Download currículo
+            </button>
+            <button class="botao-site">
+              <img ngSrc="assets/linkedin.png"
+              alt="Logo linkedin"
+              height="90"
+              width="90"
+            >
+            </button>
+            <button class="botao-site">
+              <img ngSrc="assets/github.png"
+              alt="Logo Github"
+              height="90"
+              width="90"
+              >
+            </button>
+            <button class="botao-site">
+              <img ngSrc="assets/discord.png"
+              alt="Logo Discord"
+              height="90"
+              width="90"
+              >
+            </button>
+          </div>
+        </aside>
+          <img ngSrc="assets/fotoPerfil.png"
+          priority
+          alt="Foto de Perfil"
+          height="864"
+          width="637"
+          >
+      </section>
+      <app-informacoes></app-informacoes>
+    </main>
+
+

@@ -4,52 +4,48 @@ $azulClaro: #A2D6F9;
 $branco: #F9F9F9;
 $laranja: #EA7317;
 
-
-.home{
+// main{
+//   margin: 0;
+//   padding: 0;
+// }
+section{
   padding-left: 20vh;
   display: flex;
   flex-direction: row;
   gap: 22px
 }
 
-.home-div{
+.home{
+padding-top: 24vh;
 display: flex;
 flex-direction: column;
 }
-.home-titulo{
-  font-size: 18vh;
+
+h1{
+  font-size: 22vh;
+  font-weight: 600;
+}
+h2{
+  font-size: 16vh;
   font-weight: 500;
 }
-.home-subtitulo{
-  font-size: 21vh;
-  font-weight: 600;
+h3{
+  font-size: 16vh;
+  font-weight: 400;
 }
-.negrito-laranja{
+h1, h2, h3 {
+  margin: 0;
+}
+span{
   color: $laranja;
 }
-.home-nome{
-  font-size: 16vh;
-  font-weight: 600;
-}
-.foto-perfil{
-  max-width: 104vh;
-  max-height:  141.6vh;
-}
-.lista-botao{
+
+.lista-botoes{
+  //padding-top: 19vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-.botao-site{
-  background-color: $azulEscuro;
-  max-height: 14.7vh;
-  max-width: 14.7vh;
-  border-radius: 100%;
-}
-.imagem-site{
-  height: 14.7vh;
-  width: 14.7vh;
 }
 .botao-curriculo{
   width: 67vh;
@@ -60,4 +56,14 @@ flex-direction: column;
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 4.9vh;
+}
+.imagem-site{
+  height: 14.7vh;
+  width: 14.7vh;
+}
+.botao-site{
+  background-color: $azulEscuro;
+  max-height: 14.7vh;
+  max-width: 14.7vh;
+  border-radius: 100%;
 }
