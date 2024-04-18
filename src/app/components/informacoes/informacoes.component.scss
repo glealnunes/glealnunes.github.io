@@ -1,0 +1,42 @@
+$azul: #3DA5D9;
+$azulEscuro: #2364AA;
+$azulClaro: #A2D6F9;
+$branco: #F9F9F9;
+$laranja: #EA7317;
+
+section{
+  padding-top:  10vh;
+  padding-left: 20vh;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 34vh
+}
+
+h1{
+  font-size: 15vh;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+span{
+  color: $laranja;
+}
+h2{
+  font-size: 6vh;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+h3{
+  font-size: 6vh;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+h4{
+  font-size: 5vh;
+  font-weight: 600;
+}
+.padTop-50{
+  padding-top: 5vh;
+}
