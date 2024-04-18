@@ -13,12 +13,29 @@ body {
   background-color: $azulEscuro;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
 
+// main {
+//   display: flex;
+//   flex-direction: column;
+//   margin-top: 10vh;
+
+// }
+
+// section {
+//   padding: 20vh;
+// }
+// @media (max-width: 1200px) {
+//   section {
+//     padding: 10vh;
+//   }
+// }
+// @media (max-width: 800px) {
+//   section {
+//     padding: 5vh;
+//   }
+// }
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
