@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
 $branco: #F9F9F9;
 $azul: #3DA5D9;
 $azulEscuro: #2364AA;
@@ -38,4 +39,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+section{
+  padding-top:  10vh;
+  padding-left: 20vh;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 34vh
 }
