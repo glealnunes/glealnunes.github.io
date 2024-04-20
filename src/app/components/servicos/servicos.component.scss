@@ -1,0 +1,48 @@
+$azul: #3DA5D9;
+$azulEscuro: #2364AA;
+$azulClaro: #A2D6F9;
+$branco: #F9F9F9;
+$laranja: #EA7317;
+
+section {
+  background-color: $laranja;
+}
+h1 {
+font-size: 12vh;
+font-weight: 800;
+margin-bottom:2.7vh;
+}
+h2{
+font-size: 5.4vh;
+font-weight: 700;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 4.3vh;
+  font-weight: 600;
+}
+h4{
+  font-family: "Montserrat";
+  font-size: 4.1vh;
+  font-weight: 600;
+}
+h5{
+  font-family: "Fuzzy Bubbles";
+  font-size: 4.6vh;
+  font-weight: 700;
+}
+.servicos{
+  display: flex;
+  flex-direction: column;
+}
+.colunaServico{
+  display: flex;
+  flex-direction: row;
+  gap: 5.6vh;
+  margin-bottom: 6.8vh;
+}
+span{
+  font-family: "Fuzzy Bubbles";
+  //font-size: 4.6vh;
+  font-weight: 700;
+}
