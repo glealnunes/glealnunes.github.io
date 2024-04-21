@@ -1,0 +1,55 @@
+$azul: #3DA5D9;
+$azulEscuro: #2364AA;
+$azulClaro: #A2D6F9;
+$branco: #F9F9F9;
+$laranja: #EA7317;
+
+section {
+  background-color: $azulEscuro;
+}
+.laranja{
+  color: $laranja;
+}
+h1 {
+font-size: 12vh;
+font-weight: 800;
+}
+h2{
+  font-size: 4.1vh;
+  font-weight: 600;
+}
+h3 {
+  font-size: 3.1vh;
+  font-weight: 600;
+}
+h4 {
+  font-size: 3.1vh;
+  font-weight: 600;
+}
+h5 {
+  font-size: 4vh;
+  font-weight: 600;
+}
+.fuzzyBubles {
+  font-family: "Fuzzy Bubbles";
+  font-size: 4.6vh;
+  font-weight: 700;
+}
+.tecnologias{
+  padding-top:22vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4.1vh;
+}
+
+.listaTec{
+  display: flex;
+  flex-direction: row;
+  gap: 4.1vh;
+}
+.pad-5 {
+  padding-top: 1vh;
+}
+.pad-26 {
+  padding-top: 3.5vh;
+}
