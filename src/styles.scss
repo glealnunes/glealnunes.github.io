@@ -7,7 +7,7 @@ $azulEscuro: #2364AA;
 $azulClaro: #A2D6F9;
 $laranja: #EA7317;
 body {
-  //margin: 0 auto;
+  margin: 0 auto;
   font-size: 100%;
   color : $branco;
   font-family:'Poppins', sans-serif;
@@ -45,5 +45,5 @@ section{
   padding-left: 20vh;
   display: flex;
   flex-direction: row;
-  margin-bottom: 34vh
+  padding-bottom: 34vh
 }
