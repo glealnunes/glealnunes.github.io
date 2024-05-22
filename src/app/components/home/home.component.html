@@ -1,51 +1,36 @@
-<app-header></app-header>
-    <main>
-      <section>
-        <aside class="home">
-
-            <h3>Frontend</h3>
-            <h1>Develo<span>per.</span></h1>
-            <h2 >Gesser Leal</h2>
-
-          <div class="lista-botoes">
-            <button class="botao-curriculo">
-              Download currículo
-            </button>
-            <button class="botao-site">
-              <img ngSrc="assets/linkedin.png"
-              alt="Logo linkedin"
-              height="90"
-              width="90"
-            >
-            </button>
-            <button class="botao-site">
-              <img ngSrc="assets/github.png"
-              alt="Logo Github"
-              height="90"
-              width="90"
-              >
-            </button>
-            <button class="botao-site">
-              <img ngSrc="assets/discord.png"
-              alt="Logo Discord"
-              height="90"
-              width="90"
-              >
-            </button>
-          </div>
-        </aside>
-          <img ngSrc="assets/fotoPerfil.png"
-          priority
-          alt="Foto de Perfil"
-          height="864"
-          width="637"
-          >
-      </section>
-      <app-informacoes></app-informacoes>
-      <app-servicos></app-servicos>
-      <app-tecnologia></app-tecnologia>
-      <app-projetos></app-projetos>
-      <app-contato></app-contato>
-    </main>
-
-
+<main>
+  <app-header></app-header>
+  <section>
+    <aside class="home">
+      <div>
+        <h3>Frontend</h3>
+        <h4>Develo<span>per.</span></h4>
+        <h5>Gesser Leal</h5>
+      </div>
+      <div class="lista-botoes">
+        <button class="botao-curriculo">
+          Download currículo
+        </button>
+        <div class="botaoSecundario">
+          <button class="botao-site">
+            <img ngSrc="assets/linkedin.png" alt="Logo linkedin" height="90" width="90">
+          </button>
+          <button class="botao-site">
+            <img ngSrc="assets/github.png" alt="Logo Github" height="90" width="90">
+          </button>
+          <button class="botao-site">
+            <img ngSrc="assets/discord.png" alt="Logo Discord" height="90" width="90">
+          </button>
+        </div>
+      </div>
+    </aside>
+    <div class="fotoPerfil">
+      <img src="assets/fotoPerfil.png" alt="Foto de Perfil">
+    </div>
+  </section>
+  <app-informacoes></app-informacoes>
+  <app-servicos></app-servicos>
+  <app-tecnologia></app-tecnologia>
+  <app-projetos></app-projetos>
+  <app-contato></app-contato>
+</main>

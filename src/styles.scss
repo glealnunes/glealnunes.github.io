@@ -6,14 +6,67 @@ $azul: #3DA5D9;
 $azulEscuro: #2364AA;
 $azulClaro: #A2D6F9;
 $laranja: #EA7317;
+
+
 body {
+  box-sizing: border-box;
   margin: 0 auto;
   font-size: 100%;
   color : $branco;
   font-family:'Poppins', sans-serif;
   background-color: $azulEscuro;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong{
+  margin: 0 auto;
+}
+h3{
+  font-size: clamp(5.6rem, 5.6rem + 10vw, 5.6rem);
+  font-weight: 800;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+header,
+section {
+  padding: 1.4rem 1em;
+  //margin-bottom: 1em;
+}
 
+header {
+  min-height: 160px;
+}
+
+section {
+ max-width: 100%;
+ margin: 0 auto;
+ //border: 3px solid red;
+}
+
+.padTop-50{
+  padding-top: 3rem;
+}
+
+
+// section{
+//   display: block;
+//   min-height: 100vh;
+//   min-height: -webkit-calc(100vh - 100px);
+//   min-height: -moz-calc(100vh - 100px);
+//   min-height: calc(100vh - 100px);
+//   position: relative;
+//   width: 100%;
+//   padding-top:  8vh;
+//   padding-bottom: 17.2vh;
+//   padding-left: 20vh;
+//   display: flex;
+// }
 
 // main {
 //   display: flex;
@@ -35,15 +88,5 @@ body {
 //     padding: 5vh;
 //   }
 // }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-section{
-  padding-top:  10vh;
-  padding-left: 20vh;
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 34vh
-}
+
+

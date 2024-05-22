@@ -2,72 +2,74 @@ $azul: #3DA5D9;
 $azulEscuro: #2364AA;
 $azulClaro: #A2D6F9;
 $branco: #F9F9F9;
-$preto:#0D0D0D;
+$preto: #0D0D0D;
 $laranja: #EA7317;
 
-section{
-  padding-left: 20vh;
-  display: flex;
-  flex-direction: row;
-  gap: 22px
+strong {
+  font-weight: 700;
+  font-size: clamp(1.25rem, 1.25rem + 10vw, 1.25rem);
+  color: $branco;
 }
 
-h1{
-  font-size: 15.51vh;
-  font-weight: 800;
+h4 {
+  font-weight: 600;
+  font-size: clamp(2.3rem, 2.3rem + 10vw, 2.3rem);
 }
 
-h2{
-  font-size: 6.3vh;
-  font-weight: 500;
+h5 {
+  font-weight: 700;
+  font-size: clamp(1rem, 1rem + 10vw, 1rem);
+  color: $preto;
 }
 
-h3{
-font-size: 6.8vh;
-font-weight: 600;
+h6 {
+  font-weight: 700;
+  font-size: clamp(2.5rem, 2.5rem + 10vw, 2.5rem);
+  color: $branco;
 }
 
-h4{
-font-size: 6.8vh;
-font-weight: 600;
-font-family: "Montserrat";
-}
-
-h5{
-  font-size: 4.1vh;
-  font-weight: 500;
-}
-span{
+span {
   color: $laranja;
 }
 
-.listaLink{
-  padding-top: 6.5vh;
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: $branco;
+  color: $preto;
+  height: 6.2vh;
+  width: 100%;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+
+
+.margin-10 {
+  margin-bottom: 1.3vh;
+}
+
+.margin-30 {
+  margin-bottom: 4vh;
+}
+
+.listaLink {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 4.6vh;
+  gap: 1.6rem;
 }
 
-.gap-40{
-  display: flex;
-  gap:6.8vh;
-}
-
-.botaoLink{
+.botaoLink {
   background-color: $azulEscuro;
   max-height: 14.7vh;
   max-width: 14.7vh;
   border-radius: 100%;
 }
 
-.conteComigo{
-display: flex;
-flex-direction: column;
-padding-top: 21.2vh;
-}
-
-.botao-curriculo{
+.botao-curriculo {
   width: 67vh;
   height: 10.9vh;
   border-radius: 3.2vh;
@@ -76,16 +78,8 @@ padding-top: 21.2vh;
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 4.9vh;
+  margin-top: 10.7vh;
+  margin-bottom: 29.0vh;
 }
 
-footer{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  background-color: $branco;
-  color: $preto;
-  height: 6.2vh;
-  width: 100%;
-}
 

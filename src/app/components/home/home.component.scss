@@ -4,50 +4,50 @@ $azulClaro: #A2D6F9;
 $branco: #F9F9F9;
 $laranja: #EA7317;
 
-// main{
-//   margin: 0;
-//   padding: 0;
-// }
-section{
-  padding-left: 20vh;
+$background-image: url('/assets/fotoPerfil.png');
+$background-size: cover;
+$background-position: center center;
+$background-repeat: no-repeat;
+
+section {
   display: flex;
   flex-direction: row;
-  gap: 22px
+  justify-content: space-between;
 }
 
-.home{
-padding-top: 24vh;
-display: flex;
-flex-direction: column;
+.home {
+  padding-top: 13em;
+  display: flex;
+  flex-direction: column;
+  max-height: 97.9vh;
 }
 
-h1{
-  font-size: 22vh;
-  font-weight: 600;
+h3,
+h4,
+h5 {
+  font-size: clamp(7.5rem, 7.5rem + 10vw, 7.5rem);
 }
-h2{
-  font-size: 16vh;
+
+h4,
+h5,
+h3 {
   font-weight: 500;
-}
-h3{
-  font-size: 16vh;
-  font-weight: 400;
-}
-h1, h2, h3 {
   margin: 0;
 }
-span{
+
+span {
   color: $laranja;
 }
 
-.lista-botoes{
-  //padding-top: 19vh;
+.lista-botoes {
+  margin-top: 8rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.botao-curriculo{
+
+.botao-curriculo {
   width: 67vh;
   height: 10.9vh;
   border-radius: 3.2vh;
@@ -57,13 +57,56 @@ span{
   font-weight: 900;
   font-size: 4.9vh;
 }
-.imagem-site{
-  height: 14.7vh;
-  width: 14.7vh;
-}
-.botao-site{
+
+.botao-site {
   background-color: $azulEscuro;
-  max-height: 14.7vh;
-  max-width: 14.7vh;
+  max-height: 90px;
+  max-width: 90px;
   border-radius: 100%;
+}
+
+.fotoPerfil {
+  position: relative;
+  max-width: 39rem;
+  max-height: 100%;
+}
+
+.botaoSecundario {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (min-width: 25em) and (max-width: 76em) {
+
+  section {
+    background-image: $background-image;
+    background-size: $background-size;
+    background-position: $background-position;
+    background-repeat: $background-repeat;
+    height: 74rem;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-size: clamp(6rem, 6rem + 10vw, 6rem);
+  }
+
+  .home {
+    padding-top: 33em;
+  }
+
+  .fotoPerfil {
+    display: none;
+  }
+
+  .lista-botoes {
+    margin-top: 0rem;
+    flex-direction: column;
+  }
+
+  .lista-botoes {
+    align-items: flex-start;
+  }
+
 }

@@ -4,31 +4,21 @@ $azulClaro: #A2D6F9;
 $branco: #F9F9F9;
 $laranja: #EA7317;
 
-h1{
-  font-size: 15vh;
-  font-family: "Montserrat";
-  font-weight: 700;
-}
-
-span{
+span {
   color: $laranja;
 }
-h2{
-  font-size: 6vh;
-  font-family: "Montserrat";
+
+h4 {
+  font-family: 'Montserrat', Poppins;
   font-weight: 600;
+  font-size: clamp(2.8rem, 2.8rem + 10vw, 2.8rem);
 }
 
-h3{
-  font-size: 6vh;
-  font-family: "Montserrat";
-  font-weight: 800;
+h5 {
+  font-weight: 600;
+  font-size: clamp(2.5rem, 2.5rem + 10vw, 2.5rem);
 }
 
-h4{
-  font-size: 5vh;
-  font-weight: 600;
-}
-.padTop-50{
-  padding-top: 5vh;
+.padTop-50 {
+  padding-top: 3.1em;
 }

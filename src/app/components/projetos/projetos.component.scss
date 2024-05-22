@@ -8,36 +8,32 @@ section {
   background-color: $branco;
   color: $azulEscuro;
 }
-h1 {
-  font-size: 12vh;
-  font-weight: 800;
-}
-h2 {
-  font-size: 4.1vh;
-  font-weight: 800;
-}
-h3 {
-  font-size: 3.4vh;
-  font-weight: 600;
-}
-h4{
-  font-size: 2.7vh;
-  font-weight: 800;
+
+strong {
+  font-weight: 700;
+  font-size: clamp(1.25rem, 1.25rem + 10vw, 1.25rem);
   color: $branco;
-  font-weight: 500;
 }
-h5{
-  font-size: 4.6vh;
-  font-weight: 500;
-  color: $azul;
-  font-weight: 400;
-  font-family: "Montserrat";
+
+h4 {
+  font-family: 'Montserrat', Poppins;
+  font-weight: 800;
+  font-size: clamp(2.8rem, 2.8rem + 10vw, 2.8rem);
+  color: $azulEscuro;
 }
+
+h5 {
+  font-weight: 700;
+  font-size: clamp(1.5rem, 1.5rem + 10vw, 1.5rem);
+  color: $azulEscuro;
+}
+
 .projetos {
   display: flex;
   flex-direction: row;
-  gap: 4.1vh;
+  gap: 2rem;
 }
+
 .ferramentas {
   display: flex;
   flex-direction: row;
@@ -45,7 +41,8 @@ h5{
   padding-top: 3.2vh;
   padding-bottom: 2.5vh;
 }
-.container{
+
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,26 +50,35 @@ h5{
   border-radius: 1.3vh;
   background-color: $azulEscuro;
 }
-.padTop-50{
-  padding-top: 5vh;
-}
-.divLink{
+
+.divLink {
   display: flex;
   flex-direction: row;
-  gap: 22.4vh;
+  gap: 8.5rem;
 }
-.link{
+
+.link {
   display: flex;
   flex-direction: row;
-  gap:3.4vh;
   align-items: center;
 
 }
-.botaoFigma {
+
+.botao {
   background-color: $branco;
   border: none
 }
 
-.botao {
-  border: none;
+.bring {
+  position: relative;
+  max-width: 43rem;
+  max-height: 27.5rem;
+}
+
+@media (min-width: 25em) and (max-width: 76em) {
+
+  .projetos {
+    flex-direction: column;
+  }
+  
 }
