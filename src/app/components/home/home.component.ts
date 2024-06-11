@@ -6,6 +6,9 @@ import { ServicosComponent } from '../servicos/servicos.component';
 import { TecnologiaComponent } from '../tecnologia/tecnologia.component';
 import { ProjetosComponent } from '../projetos/projetos.component';
 import { ContatoComponent } from '../contato/contato.component';
+import { SharedModule } from '../../shared.module';
+
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -16,11 +19,17 @@ import { ContatoComponent } from '../contato/contato.component';
     ServicosComponent,
     TecnologiaComponent,
     ProjetosComponent,
-    ContatoComponent
+    ContatoComponent,
+    SharedModule
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  downloadCurriculo() {
+    const link = document.createElement('a');
+    link.href = 'assets/curriculo.pdf';
+    link.download = 'curriculo.pdf';
+    link.click();
+  }
 }
