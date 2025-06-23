@@ -1,0 +1,11 @@
+.artigoPessoal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F9BE17;
+    font-family: Chillax-Regular, sans-serif;
+}
+.biografia {
+    display: flex;
+    flex-direction: column;
+}
